@@ -38,9 +38,6 @@ namespace ShareX
 
         public delegate void HotkeyTriggerEventHandler(HotkeySettings hotkeySetting);
 
-        /// <summary>
-        /// bug
-        /// </summary>
         public HotkeyTriggerEventHandler HotkeyTrigger;
 
         private HotkeyForm hotkeyForm;
